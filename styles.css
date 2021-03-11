@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+#main-header, .other-header{
+    color:rgb(48, 107, 237);
+    margin:50px;
+    text-align:center;
+}
+
+#restaurant-photo{
+    display: block;
+    margin:0 auto;
+    width:50%;
+}
+
+#my-navbar{
+    margin:30px;
+    width:40%;
+}
+
+#navbar-choices{
+   display:flex;
+   justify-content:space-evenly
+}
+
+ul{
+    list-style: none;
+}
+
+.bar:hover{
+    font-size:1.2em;
+    color:rgb(244, 127, 255);
+}
+
+.smurf-menu{
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    font-size: 1.5em;
+    width: 60%;
+    border: 2px solid grey;
+}
+
